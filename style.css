@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* header */
+header {
+    background-color: #0a0a0aa0;
+    height: 20vh;
+}
+
+h1 {
+    /* visibility: hidden; */
+    padding-left: 40px;
+    flex: 1 auto;
+    color: white;
+}
+
+h1 i {
+    color: orange;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 100%;
+    padding-bottom: 30px;
+    flex: 3 auto;
+}
+
+.link {
+    flex: 2 auto;
+    text-align: center;
+}
+
+.link i {
+    color: orange;
+    font-size: 26px;
+    margin: 0 5px;
+}
+
+.link i:hover {
+    color: rgb(154, 100, 0);
+}
+
+.menu {
+    flex: 3 auto;
+}
+.menu a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding: 6px 12px;
+}
+
+.menu a:hover {
+    color: orange;
+}
+
+/* .menu a::after { 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 4px;
+    background-color: orange;
+    transition: all .2s ease-out;
+}
+
+.menu a:hover::after {
+    width: 100%;
+} */
+
+.bgm {
+    display: none;
+}
+
+/* main */
+main {
+    height: 100vh;
+}
+
+main iframe {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* footer */
+footer {
+    background-color: #0a0a0aa0;
+    height: 15vh;
+    justify-content: center;
+}
+
+.center_col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
