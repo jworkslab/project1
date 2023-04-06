@@ -58,6 +58,10 @@ nav {
     color: orange;
 }
 
+.bgm {
+    display: none;
+}
+
 /* .menu a::after { 
     content: "";
     position: absolute;
